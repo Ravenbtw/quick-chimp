@@ -1,0 +1,13 @@
+{
+  "name": "Quick Chimp - Become The Fastest LSF Poster",
+  "version": "0.1",
+  "description": "EZ Clap",
+  "content_scripts":
+  [
+    {
+      "matches": ["https://clips.twitch.tv/*"],
+      "js": ["script.js"]
+    }
+  ],
+  "manifest_version": 2
+}
