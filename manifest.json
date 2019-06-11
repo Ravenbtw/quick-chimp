@@ -1,7 +1,8 @@
 {
-  "name": "Quick Chimp - Insant r/LSF Poster",
+  "name": "Quick Chimp - Insant LSF Poster",
+  "short_name": "Quick Chimp",
   "version": "0.1",
-  "description": "Quick Chimp is an extension that allows you to post to the LivestreamFail subreddit right after you've clipped, so you can always be the fastest chimp in the west.",
+  "description": "Quick Chimp is an extension that allows you to post to the LivestreamFail subreddit right after you've clipped.",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
