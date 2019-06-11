@@ -1,12 +1,22 @@
 {
-  "name": "Quick Chimp - Become The Fastest LSF Poster",
+  "name": "Quick Chimp - Insant r/LSF Poster",
   "version": "0.1",
-  "description": "EZ Clap",
+  "description": "Quick Chimp is an extension that allows you to post to the LivestreamFail subreddit right after you've clipped, so you can always be the fastest chimp in the west.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "author": "Ravenbtw",
   "content_scripts":
   [
     {
       "matches": ["https://clips.twitch.tv/*"],
-      "js": ["script.js"]
+      "js": ["twitch.js"]
+    },
+    {
+      "matches": ["https://old.reddit.com/r/livestreamfail/submit?url=https://clips.twitch.tv/*"],
+      "js": ["reddit.js"]
     }
   ],
   "manifest_version": 2
