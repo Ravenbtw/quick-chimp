@@ -7,10 +7,10 @@ window.onload = function() {
 
 
   var loadButton = setInterval(function() {
-    if (document.getElementsByClassName('tw-align-items-center tw-flex tw-justify-content-between tw-pd-t-1')[0]) {
+    if (document.getElementsByClassName('clips-editor-slider-background tw-mg-y-4')[0]) {
       if (!document.getElementById('quickChimpButton')) {
         console.log("doesn't exist");
-        document.getElementsByClassName('tw-align-items-center tw-flex tw-justify-content-between tw-pd-t-1')[0].insertAdjacentHTML('afterend','<p id="quickChimpButton" style="cursor: pointer; padding: 5px; font-size: 25px; background-color:#ff4500; text-align: center; color: white; margin-top: 10px; border-radius: 5px; line-height: 50px;"><img height="50px" src="https://i.imgur.com/yAy3SuP.png">Publish and post to r/LivestreamFail<img height="50px" src="https://i.imgur.com/yAy3SuP.png"></p>');
+        document.getElementsByClassName('tw-align-items-center tw-flex tw-justify-content-between tw-pd-t-1')[0].insertAdjacentHTML('afterend','<p id="quickChimpButton" style="cursor: pointer; padding: 5px; font-size: 25px; background-color:#ff4500; text-align: center; color: white; margin-top: 10px; border-radius: 5px;">Publish and post to r/LivestreamFail</p>');
 
       } else {
         console.log("exists");

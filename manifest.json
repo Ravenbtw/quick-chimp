@@ -1,7 +1,7 @@
 {
   "name": "Quick Chimp - Instant LSF Poster",
   "short_name": "Quick Chimp",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Quick Chimp is an extension that allows you to post to the LivestreamFail subreddit right after you've clipped.",
   "icons": {
     "16": "icon16.png",
