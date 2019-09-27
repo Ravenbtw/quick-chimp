@@ -17,10 +17,10 @@ window.onload = function() {
         clearInterval(loadButton);
         document.getElementById('quickChimpButton').addEventListener('click', function() {
         document.getElementsByClassName('tw-align-items-center tw-align-middle tw-border-bottom-left-radius-large tw-border-bottom-right-radius-large tw-border-top-left-radius-large tw-border-top-right-radius-large tw-core-button tw-core-button--border tw-core-button--large tw-core-button--padded tw-core-button--primary tw-inline-flex tw-interactive tw-justify-content-center tw-overflow-hidden tw-relative')[0].click();
-          if (!document.getElementsByClassName('tw-block tw-border-bottom-left-radius-large tw-border-bottom-right-radius-large tw-border-top-left-radius-large tw-border-top-right-radius-large tw-font-size-4 tw-full-width tw-input tw-input--large tw-pd-l-1 tw-pd-r-1 tw-pd-y-05')[0].getAttribute('value') == "") {
+          if (!document.getElementsByClassName('tw-block tw-border-bottom-left-radius-large tw-border-bottom-right-radius-large tw-border-top-left-radius-large tw-border-top-right-radius-large tw-font-size-5 tw-full-width tw-input tw-input--large tw-pd-l-1 tw-pd-r-1 tw-pd-y-05')[0].getAttribute('value') == "") {
             for (var i = 0; i < metaTags.length; i++) {
               if (metaTags[i].getAttribute('property') == 'og:url') {
-                var postURL = 'https://old.reddit.com/r/livestreamfail/submit?url=' + metaTags[i].getAttribute('content').slice(0,-5) + '&title=' + document.getElementsByClassName('tw-block tw-border-bottom-left-radius-large tw-border-bottom-right-radius-large tw-border-top-left-radius-large tw-border-top-right-radius-large tw-font-size-4 tw-full-width tw-input tw-input--large tw-pd-l-1 tw-pd-r-1 tw-pd-y-05')[0].getAttribute('value') + '&quickChimp=true';
+                var postURL = 'https://old.reddit.com/r/livestreamfail/submit?url=' + metaTags[i].getAttribute('content').slice(0,-5) + '&title=' + document.getElementsByClassName('tw-block tw-border-bottom-left-radius-large tw-border-bottom-right-radius-large tw-border-top-left-radius-large tw-border-top-right-radius-large tw-font-size-5 tw-full-width tw-input tw-input--large tw-pd-l-1 tw-pd-r-1 tw-pd-y-05')[0].getAttribute('value') + '&quickChimp=true';
                 window.open(postURL);
                 break;
               }
