@@ -3,6 +3,6 @@ Browser extension that allows you to post directly to the r/LivestreamFail subre
 
 # Download
 
-[Chrome]()
+[Chrome](https://chrome.google.com/webstore/detail/quick-chimp-instant-lsf-p/ggjfcafgpmheoldbbnifopmbdjdchnom?hl=en)
 
-[Firefox]()
+[Firefox](https://addons.mozilla.org/en-US/firefox/addon/quick-chimp-instant-lsf-poster/)
